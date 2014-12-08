@@ -16,6 +16,8 @@ foods = ["ethiopian", "argentine"]
 #
 #------- your code below here ---------
 
+person[:favorite_foods] += foods
+
 #------- your code above here ---------
 
 p person[:favorite_foods]

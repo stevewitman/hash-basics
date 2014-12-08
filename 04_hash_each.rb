@@ -24,3 +24,11 @@ person = {
 #   "zip_code is 94104"
 #
 #------- your code below here ---------
+person["address"].each do |k,v|
+  puts k.to_s + " is " + v.to_s
+end
+
+# better way to do this .....
+person["address"].each do |address, location|
+  puts "#{address} is #{location}"
+end
